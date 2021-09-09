@@ -19,8 +19,7 @@ any office device that operates LEDs at the CPU’s GPIO interface.
 # Overview of Covert Channels
 
 The following table summarizes related approaches and puts the
-effectivity of the LaserShark attack in perspective. We are the first
-to enable 
+effectivity of the LaserShark attack in perspective. 
 
 <img src="https://intellisec.org/research/lasershark/cc-overview.svg" width="900">
 
