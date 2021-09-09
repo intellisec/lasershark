@@ -1,5 +1,6 @@
 # Lasershark: Linux Kernel Evaluation on DeviceTree Files
 
+In order to execute this evaluation you need `git` and `python` including the `venv` module to be installed.
 
 ## Run all
 If you want to run phases at once just execute
