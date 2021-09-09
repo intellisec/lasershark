@@ -2,7 +2,7 @@
 my_dir=$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)
 
 
-env="$my_dir/../env"
+env="$my_dir/env"
 
 if [ -e "$env" ] && [ -e "$env/bin/activate" ]
 then
@@ -18,8 +18,8 @@ else
 
 	source "$env/bin/activate"
 	pip install --upgrade pip
-	pip install -r "$my_dir/../requirements.txt"
-	grep -P '\#' "$my_dir/../requirements.txt"
+	pip install -r "$my_dir/requirements.txt"
+	grep -P '\#' "$my_dir/requirements.txt"
 fi
 
 
