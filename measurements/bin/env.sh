@@ -7,7 +7,7 @@ env="$( readlink -f ~/ )/.local/env/lasershark"
 function pip_install_colorpy()
 {
 	pip install -U git+https://github.com/markkness/ColorPy.git#subdirectory=colorpy
-	find -H "$ln_env" -path "*/colorpy/ciexyz.py" | xargs sed -i -e 's/^import colormodels/from colorpy import colormodels/'
+	find -H "$env" -path "*/colorpy/ciexyz.py" | xargs sed -i -e 's/^import colormodels/from colorpy import colormodels/'
 }
 
 if [ -e "$env" ] && [ -e "$env/bin/activate" ]
