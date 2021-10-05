@@ -31,5 +31,5 @@ else
 	grep -P '\#' "$my_dir/../requirements.txt"
 fi
 
-rm -R "$ln_env" > /dev/null 2>&1
+rm "$ln_env" > /dev/null 2>&1
 ln -s "$env" "$ln_env"
