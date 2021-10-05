@@ -69,16 +69,16 @@ python3 "$src/plot_bandwidth.py" \
 
 
 
-ln -s "$out/leds-yealink.pdf" "$out/../figure2-top.pdf"
-ln -s "$out/lasers.pdf" "$out/../figure2-bottom.pdf"
+ln -fs "$out/leds-yealink.pdf" "$out/../figure2-top.pdf"
+ln -fs "$out/lasers.pdf" "$out/../figure2-bottom.pdf"
 
-ln -s "$out/leds-selection.pdf" "$out/../figure6.pdf"
-ln -s "$out/laser-characteristic.pdf" "$out/../figure7.pdf"
-ln -s "$out/APD440A2-responsivity.pdf" "$out/../figure8.pdf"
+ln -fs "$out/leds-selection.pdf" "$out/../figure6.pdf"
+ln -fs "$out/laser-characteristic.pdf" "$out/../figure7.pdf"
+ln -fs "$out/APD440A2-responsivity.pdf" "$out/../figure8.pdf"
 
-ln -s "$out/leds-selection-bandwidth-1.pdf" "$out/../figure10a.pdf"
-ln -s "$out/leds-selection-bandwidth-2.pdf" "$out/../figure10b.pdf"
-ln -s "$out/leds-yealink-bandwidth.pdf" "$out/../figure10c.pdf"
+ln -fs "$out/leds-selection-bandwidth-1.pdf" "$out/../figure10a.pdf"
+ln -fs "$out/leds-selection-bandwidth-2.pdf" "$out/../figure10b.pdf"
+ln -fs "$out/leds-yealink-bandwidth.pdf" "$out/../figure10c.pdf"
 
-ln -s "$out/APD440A2-frequency.pdf" "$out/../figure12.pdf"
+ln -fs "$out/APD440A2-frequency.pdf" "$out/../figure12.pdf"
 
