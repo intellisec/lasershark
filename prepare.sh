@@ -32,6 +32,7 @@ elif [ "$1" = "t21p" ]; then
   # build crosstool-ng
   git clone https://github.com/crosstool-ng/crosstool-ng
   cd crosstool-ng
+  sed -i "s#http://isl.gforge.inria.fr#https://mirror.sobukus.de/files/src/isl/#g" packages/isl/package.desc
   ./bootstrap
   ./configure --enable-local
   make
