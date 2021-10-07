@@ -38,6 +38,9 @@ Folder structure of the repository:
 └─── stats
 │   │   scripts for determining device statistics
 │   
+└─── measurements
+│   │   scripts for plotting hardware measurements
+│   
 └─── pre_built
     │   pre-built images and tools
 ```
