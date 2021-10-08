@@ -1,6 +1,6 @@
 # Plotting Hardware Measurements
 
-This section of the repository enables you generate various plots to
+This section of the repository enables you to generate various plots to
 visualize hardware characteristics as used for the LaserShark attacks.
 
 ## Dependencies
