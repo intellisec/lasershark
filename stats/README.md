@@ -1,6 +1,7 @@
 # Lasershark: Linux Kernel Evaluation on DeviceTree Files
 
-In order to execute this evaluation you need `git` and `python` including the `venv` module to be installed. Please, also make sure that you have at least 16GB of RAM and 32GB of disk space available.
+The goal of this part is to evaluate how many of the registered boards in the linux kernel might be vulnerable for the Lasersharks attack. Therefore we `git clone` the linux kernel and evaluate every contained `.dts` file to see if we find LEDs connected to the GPIO ports. In order to execute this evaluation you need `git`, `gcc` and `python` including the `venv` module to be installed. Please, also make sure that you have at least 16GB of RAM and 32GB of disk space available.
+
 
 ## Run all
 If you want to run phases at once just execute
@@ -73,5 +74,4 @@ We found 0 individual UNKNOWN_pwm LEDs.
 We found 18 individual parsable boards with at least one ACTIVE_HIGH LED.
 We found 6 individual parsable boards with at least one ACTIVE_LOW LED.
 ```
-
 
