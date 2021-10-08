@@ -75,3 +75,4 @@ We found 18 individual parsable boards with at least one ACTIVE_HIGH LED.
 We found 6 individual parsable boards with at least one ACTIVE_LOW LED.
 ```
 
+We find that 45% of the boards in the device tree (422 out of 933) have at least one LED registered at a GPIO port and are thus potentially vulnerable. In practice, however, the exact number of devices is difficult to determine as the LEDs might, for instance, not be visible from the outside. Also, our analysis cannot make a statement on the piece numbers of the boards and products.
