@@ -11,7 +11,7 @@ bash run.sh
 Otherwise run the individual phases one after the other as follows:
 
 ## Preprocessing Phase
-As `.dts` use C++ preprocessor inlcudes and macros we first need to preprocess them with a C++ preprocessor. Use the `scripts/preprocess.sh` script therefore. In the first run this clones the linux kernel repository. This might take a while. Ones the repo is cloned, it runs every `.dts` in the linux kernel through the C++ preprocessor to resolve the includes and macros. Every preprocessed file is stored as `_processed.dts` files. Also a list of all files is saved in the `results` folder.
+As `.dts` use C++ preprocessor inlcudes and macros we first need to preprocess them with a C++ preprocessor. Use the `preprocess.sh` script therefore. In the first run this clones the linux kernel repository. This might take a while. Once the repo is cloned, it runs every `.dts` in the linux kernel through the C++ preprocessor to resolve the includes and macros. Every preprocessed file is stored as `_processed.dts` files. Also a list of all files is saved in the `results` folder.
 
 Execute
 ```bash
