@@ -13,6 +13,7 @@ elif [ "$1" = "mr3020" ] && [ "$2" = "build" ]; then
 elif [ "$1" = "t21p" ] && [ "$2" = "toolchain" ]; then
   rm -rf targets/t21p/crosstool-ng
   rm -rf targets/t21p/build
+  chmod -R u+rwx targets/t21p/x-tools
   rm -rf targets/t21p/x-tools
   rm -rf targets/t21p/linux-stable-rt-3.4.20-rt31
 elif [ "$1" = "t21p" ] && [ "$2" = "build" ]; then
