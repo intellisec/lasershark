@@ -64,4 +64,5 @@ reference as provided below:
 }
 ```
 
-A preprint of the paper is available [here](https://intellisec.org/research/lasershark/2021-acsac.pdf).
+
+ Please find the paper either on our [webpage](https://intellisec.de/pubs/2021-acsac.pdf) or in the [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3485832.3485911).
